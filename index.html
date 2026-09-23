@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d162c">
+<title>CastAway</title>
+<meta name="description" content="CastAway casts HTML5 video from the sites you browse to your TV. For iPhone, works with Chromecast and Google TV.">
+<style>
+:root{--navy:#0d162c;--navy-2:#0c283d;--teal-deep:#056d7e;--teal:#40e0d0;--text:#eef5fb;--muted:#a9bccb;--line:rgba(238,245,251,.14)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;background:var(--navy);background-image:linear-gradient(180deg,var(--navy) 0%,var(--navy-2) 55%,#08465a 100%);background-attachment:fixed;color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:32px 16px 56px}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:32px}
+header a{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none}
+.mark{width:44px;height:44px;flex:none}
+.brand{font-weight:700;font-size:20px;letter-spacing:.2px}
+nav{margin-left:auto;display:flex;gap:16px;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover,nav a[aria-current]{color:var(--teal)}
+h1{font-size:32px;line-height:1.2;margin:0 0 12px}
+h2{font-size:20px;margin:36px 0 8px;color:var(--teal)}
+h3{font-size:17px;margin:20px 0 4px}
+p,ul,ol{margin:0 0 14px}
+ul,ol{padding-left:22px}
+li{margin-bottom:6px}
+a{color:var(--teal)}
+.lede{font-size:19px}
+.muted{color:var(--muted);font-size:15px}
+.card{border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:24px 0;background:rgba(13,22,44,.45)}
+.links{list-style:none;padding:0;margin-top:28px;display:grid;gap:10px}
+.links a{display:block;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--text);background:rgba(13,22,44,.45)}
+.links a:hover{border-color:var(--teal)}
+.links span{display:block;color:var(--muted);font-size:15px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer a{color:var(--muted)}
+@media (max-width:480px){h1{font-size:27px}nav{gap:12px;font-size:14px}.brand{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a href="index.html"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0c283d"/><rect x="11" y="15" width="42" height="28" rx="4" fill="none" stroke="#eef5fb" stroke-width="3"/><path d="M16 21a18 18 0 0 1 18 18M16 27a12 12 0 0 1 12 12M16 33a6 6 0 0 1 6 6" fill="none" stroke="#40e0d0" stroke-width="3"/><circle cx="16" cy="38.5" r="2.5" fill="#40e0d0"/><rect x="26" y="46" width="12" height="3" rx="1.5" fill="#eef5fb"/><rect x="22" y="51" width="20" height="3" rx="1.5" fill="#eef5fb"/></svg><span class="brand">CastAway</span></a>
+<nav><a href="index.html" aria-current="page">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+</header>
+<main>
+<h1>Cast web video to your TV.</h1>
+<p class="lede">CastAway is an iPhone app that casts HTML5 video from the sites you browse to your TV.</p>
+<p class="lede">Open a page, press play, tap Cast to TV. Your phone becomes the remote.</p>
+<p class="lede">It works with Chromecast and Google TV, needs no account and has no ads.</p>
+<ul class="links">
+<li><a href="support.html">Support<span>How to use it, what you need, and fixes for common problems.</span></a></li>
+<li><a href="privacy.html">Privacy policy<span>What stays on your phone and what Google's Cast software collects.</span></a></li>
+<li><a href="mailto:rye@spruik.co">Get in touch<span>rye@spruik.co</span></a></li>
+</ul>
+</main>
+<footer>
+<p>CastAway is made in Melbourne by <a href="https://spruik.co">Spruik Co Pty Ltd</a>. Questions: <a href="mailto:rye@spruik.co">rye@spruik.co</a></p>
+<p>Chromecast and Google TV are trademarks of Google LLC. iPhone and Safari are trademarks of Apple Inc. CastAway is not made by or affiliated with Google.</p>
+</footer>
+</div>
+</body>
+</html>
