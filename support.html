@@ -48,6 +48,7 @@ footer a{color:var(--muted)}
 <main>
 <h1>Support</h1>
 <p class="lede">Stuck? Most problems come down to wifi. Start here, and if you're still stuck, email <a href="mailto:rye@spruik.co">rye@spruik.co</a>.</p>
+<p class="muted">On an Android phone? Everything below applies, and <a href="#android">On Android</a> covers the differences.</p>
 
 <h2>How to use it</h2>
 <ol>
@@ -89,6 +90,34 @@ footer a{color:var(--muted)}
 <h3>The video stops when I leave the app</h3>
 <p>For some sites, keep CastAway open while you watch. The Now Playing screen keeps your phone awake so it won't lock. If the video stops, reopen CastAway and tap Resume on TV.</p>
 
+<h2 id="android">On Android</h2>
+<p>The Android app works the same way as on iPhone: open a page, press play, tap "Video found &middot; Cast to TV", then Cast to TV.</p>
+
+<h3>What you need</h3>
+<ul>
+<li>An Android phone on Android 8.0 or later, with Google Play services (casting uses Google's Cast software, which comes with Play services).</li>
+<li>A Chromecast, Google TV, or a TV with Chromecast built in.</li>
+<li>Your phone and TV on the same wifi network.</li>
+</ul>
+
+<h3>From Chrome</h3>
+<p>On the page in Chrome, tap Share, then "Cast with CastAway". The page opens in CastAway and the list of videos pops up once the page has found one. When there's no earlier page in CastAway to go back to, Back returns you to Chrome. If the video needs a login, log in inside CastAway's browser, because it keeps its own logins separate from Chrome.</p>
+
+<h3>Signing in with Google</h3>
+<p>Google doesn't allow "Sign in with Google" inside in-app browsers like CastAway's, so that button won't work there. If the site offers another way in, such as signing in with your email address and a password, use that instead.</p>
+
+<h3>The "Casting through this phone" notification</h3>
+<p>Some sites don't let the TV fetch their video directly. For those, CastAway relays the video from your phone to your TV over your wifi. While that happens, a "Casting through this phone" notification shows, with a Stop casting button. You can lock your phone; just leave CastAway running until you stop casting. The first time you cast, Android 13 and later asks whether CastAway can show notifications. Saying no doesn't stop casting.</p>
+
+<h3>My TV doesn't show up (Android)</h3>
+<ul>
+<li>Make sure your phone and TV are on the same wifi, and not a guest network that keeps devices apart.</li>
+<li>Turn off any VPN on your phone while casting. Some VPNs also stop the TV reaching your phone when CastAway relays a video.</li>
+<li>Android has no Local Network setting for apps, so there's nothing to switch on in Settings.</li>
+<li>If CastAway says casting needs Google Play services, your phone doesn't have them. You can still browse, but not cast.</li>
+<li>Still nothing? Restart the Chromecast (unplug it for ten seconds) and reopen CastAway.</li>
+</ul>
+
 <h2>Contact</h2>
 <div class="card">
 <p>Email <a href="mailto:rye@spruik.co">rye@spruik.co</a>. If a site won't play, send the page address and what the app said, and we'll take a look.</p>
@@ -97,7 +126,7 @@ footer a{color:var(--muted)}
 </main>
 <footer>
 <p>CastAway is made in Melbourne by <a href="https://spruik.co">Spruik Co Pty Ltd</a>. Questions: <a href="mailto:rye@spruik.co">rye@spruik.co</a></p>
-<p>Chromecast and Google TV are trademarks of Google LLC. iPhone and Safari are trademarks of Apple Inc. CastAway is not made by or affiliated with Google.</p>
+<p>Chromecast, Google TV, Android, Chrome and Google Play are trademarks of Google LLC. iPhone and Safari are trademarks of Apple Inc. CastAway is not made by or affiliated with Google.</p>
 </footer>
 </div>
 </body>
